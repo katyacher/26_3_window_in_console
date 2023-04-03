@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/kate/Documents/skillbox/26_3_windows_in_console/build/src",
+  "command": "/usr/bin/g++  -I/home/kate/Documents/skillbox/26_3_windows_in_console/include -g -o CMakeFiles/26_3_windows_in_console.dir/main.cpp.o -c /home/kate/Documents/skillbox/26_3_windows_in_console/src/main.cpp",
+  "file": "/home/kate/Documents/skillbox/26_3_windows_in_console/src/main.cpp",
+  "output": "src/CMakeFiles/26_3_windows_in_console.dir/main.cpp.o"
+},
+{
+  "directory": "/home/kate/Documents/skillbox/26_3_windows_in_console/build/src",
+  "command": "/usr/bin/g++  -I/home/kate/Documents/skillbox/26_3_windows_in_console/include -g -o CMakeFiles/26_3_windows_in_console.dir/window.cpp.o -c /home/kate/Documents/skillbox/26_3_windows_in_console/src/window.cpp",
+  "file": "/home/kate/Documents/skillbox/26_3_windows_in_console/src/window.cpp",
+  "output": "src/CMakeFiles/26_3_windows_in_console.dir/window.cpp.o"
+},
+{
+  "directory": "/home/kate/Documents/skillbox/26_3_windows_in_console/build/src",
+  "command": "/usr/bin/g++  -I/home/kate/Documents/skillbox/26_3_windows_in_console/include -g -o CMakeFiles/26_3_windows_in_console.dir/vector.cpp.o -c /home/kate/Documents/skillbox/26_3_windows_in_console/src/vector.cpp",
+  "file": "/home/kate/Documents/skillbox/26_3_windows_in_console/src/vector.cpp",
+  "output": "src/CMakeFiles/26_3_windows_in_console.dir/vector.cpp.o"
+},
+{
+  "directory": "/home/kate/Documents/skillbox/26_3_windows_in_console/build/src",
+  "command": "/usr/bin/g++  -I/home/kate/Documents/skillbox/26_3_windows_in_console/include -g -o CMakeFiles/26_3_windows_in_console.dir/screen.cpp.o -c /home/kate/Documents/skillbox/26_3_windows_in_console/src/screen.cpp",
+  "file": "/home/kate/Documents/skillbox/26_3_windows_in_console/src/screen.cpp",
+  "output": "src/CMakeFiles/26_3_windows_in_console.dir/screen.cpp.o"
+}
+]
