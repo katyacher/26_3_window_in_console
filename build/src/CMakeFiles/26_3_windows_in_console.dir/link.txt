@@ -1,1 +1,0 @@
-/usr/bin/g++ -g -rdynamic CMakeFiles/26_3_windows_in_console.dir/main.cpp.o CMakeFiles/26_3_windows_in_console.dir/window.cpp.o CMakeFiles/26_3_windows_in_console.dir/vector.cpp.o CMakeFiles/26_3_windows_in_console.dir/screen.cpp.o -o 26_3_windows_in_console 
