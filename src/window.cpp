@@ -19,7 +19,7 @@ void Window::setHeight(int height){
     _height = height;
 }
 
-void Window::setVector(int x, int y){
+void Window::setVec(int x, int y){
     leftUpCorner->setX(x);
     leftUpCorner->setY(y);
 }
@@ -35,3 +35,4 @@ int Window::getHeight(){
 Vector* Window::getVec(){
     return leftUpCorner;
 }
+

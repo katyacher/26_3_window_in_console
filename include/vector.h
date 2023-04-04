@@ -13,5 +13,7 @@ class Vector{
     int getX();
     int getY();
     
-    Vector operator+ (const Vector& param);
+    void getInfo();
+
+   // Vector operator+ (const Vector& param);
 };

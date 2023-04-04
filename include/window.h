@@ -11,7 +11,7 @@ public:
 
     void setWidth(int width);
     void setHeight(int height);
-    void setVector(int x, int y);
+    void setVec(int x, int y);
     int getWidth();
     int getHeight();
     Vector* getVec();

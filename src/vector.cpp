@@ -1,3 +1,4 @@
+#include <iostream>
 #include "vector.h"
 
 Vector::Vector(){
@@ -6,21 +7,11 @@ Vector::Vector(){
 }
 
 void Vector::setX(int x){
-    if(x < 0 || x >= 80) {
-        _x = 0;
-    // return false std::cout << "Выход за границы экрана";
-    } else {
-        _x = x;
-    }
+    _x = x;
 }
 
 void Vector::setY(int y){
-    if(y < 0 || y >= 50) {
-       _y = 0;
-    // return false std::cout << "Выход за границы экрана";
-    } else {
-        _y = y;
-    }
+    _y = y;
 }
 
 int Vector::getX(){
@@ -30,9 +21,16 @@ int Vector::getX(){
 int Vector::getY(){
     return _y;
 }
-Vector Vector::operator+ (const Vector& param){
+
+void Vector::getInfo(){
+    std::cout << "(" << _x << ", " << _y << ")" << std::endl;
+}
+
+/*
+Vector Vector::operator+  (const Vector& param){
   Vector temp;
   temp.setX(_x + param._x);
   temp.setY(_y + param._y);
   return temp;
 }
+*/

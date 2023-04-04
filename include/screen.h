@@ -1,5 +1,4 @@
 #include <iostream>
-#include <sstream>
 #include "window.h"
 
 class Screen{
@@ -14,8 +13,7 @@ class Screen{
      *   \brief Команда move принимает вектор, на который надо сместить окно на экране. 
      *   Сообщение с новыми координатами окна появляется на экране.
     */
-    bool move(Vector* shift_vec);
-
+    bool move( Vector* shift_vec);
 
     /**
      * \brief Команда resize запрашивает из стандартного ввода новый размер окна. 
